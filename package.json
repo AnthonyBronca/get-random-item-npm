@@ -1,0 +1,23 @@
+{
+  "name": "getrandomjs",
+  "version": "1.0.0",
+  "description": "will get random item from an array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyBronca/get-random-item-npm.git"
+  },
+  "keywords": [
+    "random",
+    "element"
+  ],
+  "author": "Anthony Bronca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyBronca/get-random-item-npm/issues"
+  },
+  "homepage": "https://github.com/AnthonyBronca/get-random-item-npm#readme"
+}
