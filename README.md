@@ -1,3 +1,11 @@
+# getRandomJs for NPM
+
+link to npm package:
+
+```
+https://www.npmjs.com/package/getrandomjs?activeTab=explore
+```
+
 Have you ever been tired of having to get a random element from an array, string, or object and you have to use Math.floor(Math.random()\* el.length)?
 
 Well now this process is simplified!
