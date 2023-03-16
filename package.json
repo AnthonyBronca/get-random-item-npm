@@ -1,7 +1,7 @@
 {
   "name": "getrandomjs",
   "version": "2.0.0",
-  "description": "will get random item from an array",
+  "description": "function that simplifies the way javascript uses random. Will return random number in a range, element from array, value from object, element in a string, or any number from 0 to 100. Function accepts up to 2 arguments. If nothing is passed in, it will return a random integer from 0 to 100. If two integer arguments are passed in, it will return a random number from that range. If a data type is passed in, it will parse and return a random value from that data type",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
