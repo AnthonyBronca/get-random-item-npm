@@ -10,7 +10,7 @@ Have you ever been tired of having to get a random element from an array, string
 
 Well now this process is simplified!
 
-With getrandomjs, you can pass in a string, array, or object and get a random element back!
+With getrandomjs, you can pass in a string, array, min/max, or object and get a random element back!
 
 If you decide to not pass anything in, it will just give you a random number between 1-100.
 
@@ -36,6 +36,48 @@ Now you can just use
 random()
 ```
 
-to get back either a number between 1- 100 if not passed in, or pass in your string,array, or object to get a random element or object value back!
+Example with Object:
+
+```
+const random = require('getrandomjs');
+
+let obj = {a: 1, b: 2, c:3}
+random(obj) // => random value from obj, either 1,2, or 3
+
+```
+
+Example with Array:
+
+```
+const random = require('getrandomjs');
+
+let arr = [1,2,3,4,5]
+
+random(arr) // => random value in arr
+
+```
+
+```
+const random = require('getrandomjs');
+
+let min = 0
+let max = 10
+
+random(min, max) // returns a random number between 0 and 10
+
+```
+
+```
+const random = require('getrandomjs');
+
+random('hello world') //randon char within the string
+
+```
+
+```
+const random = require('getrandomjs');
+
+random() //random number between 0 and 100
+```
 
 Happy coding!
